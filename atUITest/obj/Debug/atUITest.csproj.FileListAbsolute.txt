@@ -1,0 +1,9 @@
+c:\users\darth\documents\visual studio 2015\Projects\atUITest\atUITest\bin\Debug\atUITest.exe.config
+c:\users\darth\documents\visual studio 2015\Projects\atUITest\atUITest\obj\Debug\atUITest.csprojResolveAssemblyReference.cache
+c:\users\darth\documents\visual studio 2015\Projects\atUITest\atUITest\obj\Debug\atUITest.Form1.resources
+c:\users\darth\documents\visual studio 2015\Projects\atUITest\atUITest\obj\Debug\atUITest.Properties.Resources.resources
+c:\users\darth\documents\visual studio 2015\Projects\atUITest\atUITest\obj\Debug\atUITest.csproj.GenerateResource.Cache
+c:\users\darth\documents\visual studio 2015\Projects\atUITest\atUITest\bin\Debug\atUITest.exe
+c:\users\darth\documents\visual studio 2015\Projects\atUITest\atUITest\bin\Debug\atUITest.pdb
+c:\users\darth\documents\visual studio 2015\Projects\atUITest\atUITest\obj\Debug\atUITest.exe
+c:\users\darth\documents\visual studio 2015\Projects\atUITest\atUITest\obj\Debug\atUITest.pdb
