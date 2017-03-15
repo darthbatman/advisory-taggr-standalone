@@ -22,6 +22,8 @@ namespace atUITest
             this.DragDrop += new DragEventHandler(Form1_DragDrop);
         }
 
+        public string desiredAdvisoryTag;
+
         void Form1_DragEnter(object sender, DragEventArgs e)
         {
             if (e.Data.GetDataPresent(DataFormats.FileDrop)) e.Effect = DragDropEffects.Copy;
@@ -52,13 +54,14 @@ namespace atUITest
                     psi1.RedirectStandardOutput = true;
                     psi1.UseShellExecute = false;
                     psi1.CreateNoWindow = true;
-                    psi1.Arguments = "\"" + file + "\"" + " explicit";
+                    psi1.Arguments = "\"" + file + "\"" + " " + desiredAdvisoryTag;
                     Process p1 = new Process();
                     p1.StartInfo = psi1;
                     p1.EnableRaisingEvents = true;
                     p1.Exited += (s1, ea1) =>
                     {
                         Console.WriteLine("done");
+                        MessageBox.Show("Advisory Tagging Complete");
                     };
                     p1.Start();
                     while (!p1.StandardOutput.EndOfStream)
@@ -77,5 +80,36 @@ namespace atUITest
             }
         }
 
+        private void explicitButton_Click(object sender, EventArgs e)
+        {
+            explicitCheckBox.Checked = true;
+            cleanCheckBox.Checked = false;
+            noneCheckBox.Checked = false;
+
+            desiredAdvisoryTag = "explicit";
+        }
+
+        private void cleanButton_Click(object sender, EventArgs e)
+        {
+            explicitCheckBox.Checked = false;
+            cleanCheckBox.Checked = true;
+            noneCheckBox.Checked = false;
+
+            desiredAdvisoryTag = "clean";
+        }
+
+        private void noneButton_Click(object sender, EventArgs e)
+        {
+            explicitCheckBox.Checked = false;
+            cleanCheckBox.Checked = false;
+            noneCheckBox.Checked = true;
+
+            desiredAdvisoryTag = "none";
+        }
+
+        private void helpButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("How to Use\n\n1. Convert song to AAC in iTunes.\n2. Select desired tag using the buttons.\n3. Drag and drop the song file(s) from a file explorer or directly from iTunes.\n4. Wait for the completion message.\n5. Play the song in iTunes and enjoy your advisory tagged music!");
+        }
     }
 }

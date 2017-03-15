@@ -7,3 +7,12 @@ c:\users\darth\documents\visual studio 2015\Projects\atUITest\atUITest\bin\Debug
 c:\users\darth\documents\visual studio 2015\Projects\atUITest\atUITest\bin\Debug\atUITest.pdb
 c:\users\darth\documents\visual studio 2015\Projects\atUITest\atUITest\obj\Debug\atUITest.exe
 c:\users\darth\documents\visual studio 2015\Projects\atUITest\atUITest\obj\Debug\atUITest.pdb
+C:\Users\darth\Downloads\advisory-taggr-standalone-master\advisory-taggr-standalone-master\atUITest\bin\Debug\atUITest.exe.config
+C:\Users\darth\Downloads\advisory-taggr-standalone-master\advisory-taggr-standalone-master\atUITest\obj\Debug\atUITest.exe
+C:\Users\darth\Downloads\advisory-taggr-standalone-master\advisory-taggr-standalone-master\atUITest\obj\Debug\atUITest.pdb
+C:\Users\darth\Downloads\advisory-taggr-standalone-master\advisory-taggr-standalone-master\atUITest\bin\Debug\atUITest.exe
+C:\Users\darth\Downloads\advisory-taggr-standalone-master\advisory-taggr-standalone-master\atUITest\bin\Debug\atUITest.pdb
+C:\Users\darth\Downloads\advisory-taggr-standalone-master\advisory-taggr-standalone-master\atUITest\obj\Debug\atUITest.csprojResolveAssemblyReference.cache
+C:\Users\darth\Downloads\advisory-taggr-standalone-master\advisory-taggr-standalone-master\atUITest\obj\Debug\atUITest.Form1.resources
+C:\Users\darth\Downloads\advisory-taggr-standalone-master\advisory-taggr-standalone-master\atUITest\obj\Debug\atUITest.Properties.Resources.resources
+C:\Users\darth\Downloads\advisory-taggr-standalone-master\advisory-taggr-standalone-master\atUITest\obj\Debug\atUITest.csproj.GenerateResource.Cache
